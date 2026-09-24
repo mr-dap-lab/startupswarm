@@ -1,3 +1,36 @@
+# StartupSwarm
+
+**A startup team of 23 AI agent roles, designed for use with GrokBot.**
+
+StartupSwarm is a collection of Markdown agent instructions for taking a product from an idea through discovery, design, development, testing, launch, and learning. One orchestrator coordinates 22 specialists, while the human founder approves key decisions and stage transitions.
+
+This repository contains the team's role definitions and operating workflow. Running the team requires an agent environment configured to use these instructions.
+
+## Demo and background
+
+**GrokBot Swarm Demo - Startup Team** demonstrates the startup-team concept. The demo was created using credits shared at the **Grok Bot Miami Kickoff at the Dock**, led by **Ben Milshtein** and **Ethan Troy**.
+
+Thanks to the organizers for providing the credits to experiment with GrokBot!
+
+## Meet the team
+
+| Area | Roles |
+| --- | --- |
+| Orchestration | Context Owner & Communications Orchestrator |
+| Product | Director of Product, Product Manager, Product Owner, Business Analyst |
+| Design | Creative Director |
+| Technology & Data | Director of Technology, Software Architect, Data Architect, Data Scientist, DBA & Metadata Curator |
+| Engineering | Distinguished Principal Engineer, Technical Leader, Fullstack Developer, AI Engineer |
+| Quality & Security | Quality Analyst, Cybersecurity Analyst |
+| Delivery & Operations | DevOps & Sysadmin, Project Manager & Scrum Master, Delivery Manager |
+| Growth | Marketing Specialist, Sales Expert, Content Creator & Community Manager |
+
+Each specialist definition describes its responsibilities, required inputs, expected deliverables, ownership boundaries, and escalation rules.
+
+## How it works
+
+
+```text
 Discovery → Design → Build → Verify → Ship → Learn
     ↑                                         │
     └──────────── Approved next cycle ─────────┘
